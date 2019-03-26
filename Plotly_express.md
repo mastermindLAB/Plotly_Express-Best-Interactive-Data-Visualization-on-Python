@@ -13,7 +13,7 @@ gapminder = px.data.gapminder()
 pd = px.scatter(gapminder, x="gdpPercap", y="lifeExp",template='plotly_dark',color='continent',labels = dict(lifeExp='Life Exceptancy',gdpPercap = 'GDP/Capita'))
 
 ```
-![](Plotly_express.png)
+![](plotly_express.png)
 ```python 
 gapminder.head()
 ```
