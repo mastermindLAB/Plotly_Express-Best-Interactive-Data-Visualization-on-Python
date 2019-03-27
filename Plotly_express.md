@@ -1,5 +1,5 @@
 ![Data vis](https://abovethelaw.com/wp-content/uploads/2015/06/data-visualization.jpg)
-# "Less code, Efficient & time saver" Plotly Express (python lib)do more interactive Data Visualization.
+# :sparkles:	"Less code, Efficient & time saver" do more interactive Data Visualization with Plotly Express (python lib).
 
 Wow! finally I found this `plotly_express` a new interactive python lib from plotly, so far this is one of the best Data visualization lib I have ever used in python. I liked the way it makes Dark template, interactive labels.
 
