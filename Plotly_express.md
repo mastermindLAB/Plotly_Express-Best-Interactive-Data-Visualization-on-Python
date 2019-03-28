@@ -40,7 +40,8 @@ px.scatter(gap2007, x="gdpPercap", y="lifeExp",template='plotly_dark',facet_col 
 Now lets make some animation in plotly_express and how handy it is just by adding the `animation_frame= "year"` and `animation_group ="country"`. Why don't put some manual bounds such as `range_x = [100,1000000]` and `range_y = [25,90]`. :relaxed:
 
 ```python
-px.scatter(gap2007, x="gdpPercap", y="lifeExp",template='plotly_dark',facet_col = "continent", log_x= True,color='continent',animation_frame= "year",animation_group ="country",hover_name='country', range_x = [100,1000000], range_y = [25,90] ,size='pop',size_max=60,labels = dict(lifeExp='Life Exceptancy',gdpPercap = 'GDP/Capita'))
+px.scatter(gapminder, x="gdpPercap", y="lifeExp",template='plotly_dark', log_x= True,color='continent',animation_frame= "year",animation_group ="country",hover_name='country', range_x = [100,1000000], range_y = [25,90] ,size='pop',size_max=60,labels = dict(lifeExp='Life Exceptancy',gdpPercap = 'GDP/Capita'))
+
 ```
 ![](animation_yearly.gif)
 
