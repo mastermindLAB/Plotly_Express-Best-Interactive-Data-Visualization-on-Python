@@ -1,7 +1,7 @@
 ![Data vis](https://abovethelaw.com/wp-content/uploads/2015/06/data-visualization.jpg)
 # :sparkles:	"Less code, Efficient & time saver" do more interactive Data Visualization with Plotly Express (python lib).
 
-:sparkles: Wow! finally I found this `plotly_express` a new interactive python lib from plotly, so far this is one of the best Data visualization lib I have ever used in python. I liked the way it makes Dark template, interactive labels.
+:hand: Wow! finally I found this `plotly_express` a new interactive python lib from plotly, so far this is one of the best Data visualization lib I have ever used in python. I liked the way it makes Dark template, interactive labels.
 
 ```python
 import plotly_express as px
@@ -27,7 +27,7 @@ px.scatter(gap2007, x="gdpPercap", y="lifeExp",template='plotly_dark',color='con
 >In a single line by just writing `hover_name`,`size` and `labels` we can interactively show the visualization on python.
 
 ![](Animation.gif)
-<<<<<<< HEAD
+
 
 
 > We can facet the plot to pick apart the continents just by `facet_col = "continent"` and lets make the x-axis as logarithmic to visualize it more clearly
